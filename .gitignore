@@ -1,0 +1,84 @@
+# ─── macOS ───────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.egg
+
+# ─── Jupyter ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── LaTeX build artefacts ───────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# ─── Binary / large blobs — use Git LFS ──────────────────────
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.zip
+*.tar.gz
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# ─── Sensitive / secret files ────────────────────────────────
+.env
+.env.*
+secrets.yaml
+secrets.json
+*.key
+*.pem
+ibm_quantum_token.txt
+api_keys.txt
+.ibm_quantum_credentials
+
+# ─── IDE / Editor ────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ─── OS / Temp ───────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.tmp
+*.temp
+*.bak
+*.orig
+*.lock
+
+# ─── Data safety ─────────────────────────────────────────────
+data/raw/
+*.tsv
